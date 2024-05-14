@@ -8,10 +8,10 @@ skip-lint = false
 hello_world = "CHtBZwA9gJFcFziPBsaJP2NzRPGqqtA8BUbB4e3N6JKs"
 
 [registry]
-url = "https://api.apr.dev"
+url = "http://127.0.0.1:8899"
 
 [provider]
-cluster = "Localnet"
+cluster = "devnet"
 wallet = '~\.config/solana/id.json'
 
 [scripts]
