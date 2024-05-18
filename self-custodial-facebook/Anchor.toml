@@ -3,6 +3,7 @@
 [features]
 resolution = true
 skip-lint = false
+seeds = true
 
 [programs.localnet]
 self_custodial_facebook = "AuWmcCynVKE4f1mCZeBBjJczouC6SmZEUnJk8SGaewyB"
@@ -11,7 +12,7 @@ self_custodial_facebook = "AuWmcCynVKE4f1mCZeBBjJczouC6SmZEUnJk8SGaewyB"
 url = "https://api.apr.dev"
 
 [provider]
-cluster = "Localnet"
+cluster = "devnet"
 wallet = "~/.config/solana/id.json"
 
 [scripts]
